@@ -9,6 +9,8 @@ Welcome to **AniFavs**, a simple web project showcasing some of the most iconic 
 
 ---
 
-## 🚀 **Getting Started**
+## 🚀 **Here are some screenshots:**
 
-To get started with this project locally, follow these steps:
+![Screenshots](./ss1.jpg)
+![Screenshots](./ss2.jpg)
+![Screenshots](./ss3.jpg)
