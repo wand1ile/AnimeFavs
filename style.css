@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  overflow: hidden;
+}
+
+.main{
+    height: 100vh; 
+    width: 100%;
+    background-color: #bdbdbd;
+}
+
+header{
+    text-align: center;
+    background-color: #6b5484;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+header img{
+    height: 100px;
+    width: auto;
+}
+ 
+
+
+.content{
+    height: calc(100% - 110px);
+    width: 100%;
+    position: relative;
+    display: flex;
+    background: linear-gradient(to right, #ffffff, #e6e6e6);
+}
+
+.content-left{
+    height: 100%;
+    width: 40%;
+    padding: 60px 80px;
+    background-color: #fafafa;
+    border-right: 2px solid #dcdcdc;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-left h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #555;
+    margin-bottom: 10px;
+    letter-spacing: 1px
+ 
+}
+
+.content-left h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+   
+}
+
+.content-left p{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 30px;
+    width: 100%;
+
+}
+
+.btn{
+    border: none;
+    background-color: #6b5484;
+    color: white;
+    padding: 12px 40px;
+    font-weight: 30px;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    cursor: pointer;
+}
+
+.content-right{
+    height: 100%;
+    width: 60%;
+    padding: 110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.char{
+    height: 370px;
+    width: 250px;
+    background-color: #e4e1e1;
+    position: relative;
+    box-sizing: 0 5px 10px gray;
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.char img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+}
+
+.char h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 28%;
+    color: #6b5484;
+}
+
+
+.anime{
+    position: absolute;
+    bottom: 20%;
+    font-weight: 500;
+}
+
+.aura{
+    position: absolute;
+    bottom: 12%;
+    font-weight: 500;
+}
+
+a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+.char:hover{
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+}
